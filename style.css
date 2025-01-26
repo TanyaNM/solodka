@@ -1,0 +1,102 @@
+ 
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image:url("https://mir-oboev.ua/image/cache/catalog/oboi/BIS100661077-1000x1000.jpg");
+           
+            color: white;
+        }
+
+        header {
+            padding: 20px;
+            text-align: center;
+            background-image:url("https://mir-oboev.ua/image/cache/catalog/oboi/BIS100661077-1000x1000.jpg");
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+       
+
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+            gap: 20px;
+            
+        }
+
+        .product {
+            background-image:url("https://mir-oboev.ua/image/cache/catalog/oboi/BIS100661077-1000x1000.jpg");
+            border-radius: 10px;
+            padding: 20px;
+            width: 200px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 3);
+            transition: transform 0.2s;
+            color: grey;
+        }
+
+        .product:hover {
+            transform: scale(1.1);
+        }
+
+        .product img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .product button {
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-image:url("https://mir-oboev.ua/image/cache/catalog/oboi/BIS100661077-1000x1000.jpg");
+            color: grey;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 3)
+        }
+
+        .product button:hover {
+            background-color: #8a2be2;
+        }
+
+        .cart {
+            padding: 20px;
+            background-image:url("https://mir-oboev.ua/image/cache/catalog/oboi/BIS100661077-1000x1000.jpg");
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 3);
+            color: grey;
+        }
+
+        .cart h2 {
+            margin-top: 0;
+        }
+
+        .cart-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px solid #8a2be2;
+        }
+
+        .cart-item button {
+            padding: 5px 10px;
+            background-color: #ff4500;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .cart-item button:hover {
+            background-color: #ff6347;
+        }
+h1{
+    color:grey;
+}
